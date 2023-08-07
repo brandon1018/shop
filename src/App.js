@@ -34,7 +34,7 @@ function App() {
           <Route path='/about/location' element={<div>회사 위치 정보</div>} />
           <Route path='/about/member' element={<div>사원 정보</div>} />
         </Route>
-        <Route path='*' element={<div>page not found</div>} />
+        <Route path='*' element={<div>page not found</div>} /> 
       </Routes>
       {/* <Button onClick={()=>}>더 보기</Button> */}
 
